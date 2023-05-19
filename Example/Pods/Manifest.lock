@@ -1,0 +1,16 @@
+PODS:
+  - EmptyViewSet (0.1.0)
+
+DEPENDENCIES:
+  - EmptyViewSet (from `../`)
+
+EXTERNAL SOURCES:
+  EmptyViewSet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EmptyViewSet: 073dca47fa3bc951e634057afcb22b6815c880cd
+
+PODFILE CHECKSUM: 4d522a4930f4fb657d0cf097231a47b9d94558fb
+
+COCOAPODS: 1.12.1

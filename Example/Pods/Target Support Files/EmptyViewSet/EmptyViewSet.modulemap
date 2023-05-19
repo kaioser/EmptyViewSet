@@ -1,0 +1,6 @@
+framework module EmptyViewSet {
+  umbrella header "EmptyViewSet-umbrella.h"
+
+  export *
+  module * { export * }
+}

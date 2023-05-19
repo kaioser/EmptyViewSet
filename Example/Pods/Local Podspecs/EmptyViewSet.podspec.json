@@ -1,0 +1,25 @@
+{
+  "name": "EmptyViewSet",
+  "version": "0.1.0",
+  "summary": "空数据视图",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/uiop/empty-view-set",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yxkkk": "13730228573@163.com"
+  },
+  "source": {
+    "git": "https://gitee.com/uiop/empty-view-set.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "EmptyViewSet/Classes/**/*",
+  "frameworks": "Network",
+  "swift_version": "5.0"
+}

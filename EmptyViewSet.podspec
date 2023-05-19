@@ -7,36 +7,30 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'EmptyViewSet'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EmptyViewSet.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/yxkkk/EmptyViewSet'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yxkkk' => '13730228573@163.com' }
-  s.source           = { :git => 'https://github.com/yxkkk/EmptyViewSet.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'EmptyViewSet/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'EmptyViewSet' => ['EmptyViewSet/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'EmptyViewSet'
+    s.version          = '0.1.0'
+    s.summary          = '空数据视图'
+    
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
+    
+    s.description      = <<-DESC
+    TODO: Add long description of the pod here.
+    DESC
+    
+    s.homepage         = 'https://gitee.com/uiop/empty-view-set'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'yxkkk' => '13730228573@163.com' }
+    s.source           = { :git => 'https://gitee.com/uiop/empty-view-set.git', :tag => s.version.to_s }
+    
+    s.ios.deployment_target = '13.0'
+    s.swift_version = '5.0'
+    
+    s.source_files = 'EmptyViewSet/Classes/**/*'
+    
+    s.frameworks = 'Network'
+    
 end

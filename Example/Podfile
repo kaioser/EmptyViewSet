@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'EmptyViewSet_Example' do
+  pod 'EmptyViewSet', :path => '../'
+
+  target 'EmptyViewSet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

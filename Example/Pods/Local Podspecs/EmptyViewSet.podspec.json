@@ -1,19 +1,19 @@
 {
   "name": "EmptyViewSet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "空数据视图",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitee.com/uiop/empty-view-set",
+  "homepage": "https://github.com/kaioser/EmptyViewSet",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yxkkk": "13730228573@163.com"
+    "yangxiongkai": "yangxiongkai@126.com"
   },
   "source": {
-    "git": "https://gitee.com/uiop/empty-view-set.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/kaioser/EmptyViewSet.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "13.0"

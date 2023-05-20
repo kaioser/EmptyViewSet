@@ -22,7 +22,7 @@ pod 'EmptyViewSet'
 
 ## Author
 
-yxkkk, 13730228573@163.com
+yangxiongkai, yangxiongkai@126.com
 
 ## License
 

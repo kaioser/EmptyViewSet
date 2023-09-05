@@ -22,6 +22,9 @@ public protocol Emptiable: UIViewController {
     
     /// 空视图按钮点击事件
     func emptyButtonAction()
+    
+    /// 网络错误按钮点击时间
+    func emptyNetworkButtonAction ()
 }
 
 public extension Emptiable {
@@ -31,7 +34,9 @@ public extension Emptiable {
     
     /// 手动触发是否显示空视图
     /// - Parameter show: 是否
-    func showEmpty(_ show: Bool) { empty(show: show) }
+    func showEmpty(_ show: Bool) {
+        empty(show: show)
+    }
 }
 
 // MARK: - Private
@@ -54,7 +59,12 @@ extension Emptiable {
             let targetView = emptyView// 保证只调用一次，所以用targetView临时保存
             targetView.tapped = { [weak self] in
                 guard let self = self else { return }
-                self.emptyButtonAction()
+                
+                if NetworkMonitor.shared.isConnected {
+                    self.emptyButtonAction()
+                } else {
+                    self.emptyNetworkButtonAction()
+                }
             }
             
             let superView = emptySuperView

@@ -24,7 +24,7 @@ class EmptyContainer: UIStackView {
     var height: CGFloat {
         var titleHeight: CGFloat = 40
         if haveSubtitle { titleHeight += 20 }
-        if haveImage { titleHeight += 230 }
+        if haveImage { titleHeight += normalItem.imageSize }        
         if haveBtn { titleHeight += 40 }
         return titleHeight
     }
